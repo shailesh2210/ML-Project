@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logging
 
 # Function to create a detailed error message with line number
 def error_message_detail(error, error_detail: sys):
